@@ -1,0 +1,60 @@
+{
+	
+  "question": [
+	"[SEKWENCJA 1] Proszę ocenić zgodność synchronizacji dźwięku i obrazu. Jak bardzo irytujące jest nagranie w skali od 1 do 5?   ",
+    "[SEKWENCJA 2] Proszę ocenić zgodność synchronizacji dźwięku i obrazu. Jak bardzo irytujące jest nagranie w skali od 1 do 5?   ",
+    "[SEKWENCJA 3] Proszę ocenić zgodność synchronizacji dźwięku i obrazu. Jak bardzo irytujące jest nagranie w skali od 1 do 5?   ",
+    "[SEKWENCJA 4] Proszę ocenić zgodność synchronizacji dźwięku i obrazu. Jak bardzo irytujące jest nagranie w skali od 1 do 5?   ",
+    "[SEKWENCJA 5] Proszę ocenić zgodność synchronizacji dźwięku i obrazu. Jak bardzo irytujące jest nagranie w skali od 1 do 5?   "
+  ],
+
+  "options": [
+    [
+      " 1. niedostrzegalne ",
+      " 2. dostrzegalne, lecz nie denerwujace ",
+      " 3. nieznacznie denerwujące ",
+      " 4. denerwujące ",
+	  " 5. bardzo denerwujące "
+	 
+    ],
+    [
+      " 1. niedostrzegalne ",
+      " 2. dostrzegalne, lecz nie denerwujace ",
+      " 3. nieznacznie denerwujące ",
+      " 4. denerwujące ",
+	  " 5. bardzo denerwujące "
+	  
+    ],
+    [
+      " 1. niedostrzegalne ",
+      " 2. dostrzegalne, lecz nie denerwujace ",
+      " 3. nieznacznie denerwujące ",
+      " 4. denerwujące ",
+	  " 5. bardzo denerwujące "
+	  
+    ],
+    [
+      " 1. niedostrzegalne ",
+      " 2. dostrzegalne, lecz nie denerwujace ",
+      " 3. nieznacznie denerwujące ",
+      " 4. denerwujące ",
+	  " 5. bardzo denerwujące "
+	  
+    ],
+    [
+      " 1. niedostrzegalne  ",
+      " 2. dostrzegalne, lecz nie denerwujące ",
+      " 3. nieznacznie denerwujące ",
+      " 4. denerwujące ",
+	  " 5. bardzo denerwujące "
+	  
+    ]
+  ],
+  "answer": [
+    3,
+    2,
+    2,
+    1,
+    1
+  ]
+}

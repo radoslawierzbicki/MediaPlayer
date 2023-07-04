@@ -1,0 +1,8 @@
+1.bardzo denerwujące 1.niedostrzegalne 1.nieznacznie denerwujące 2.dostrzegalne, lecz nie denerwujace 3.nieznacznie denerwujące 4.denerwujące 5.niedostrzegalne  
+1.nieznacznie denerwujące 2.dostrzegalne, lecz nie denerwujace 3.denerwujące 4.bardzo denerwujące 5.niedostrzegalne  
+1.dostrzegalne, lecz nie denerwujace 2.nieznacznie denerwujące 3.denerwujące 4.bardzo denerwujące 5.nieznacznie denerwujące 
+1.denerwujące 2.nieznacznie denerwujące 3.nieznacznie denerwujące 4.bardzo denerwujące 5.dostrzegalne, lecz nie denerwujące 
+1.niedostrzegalne 2.niedostrzegalne 3.niedostrzegalne 4.niedostrzegalne 5.niedostrzegalne  
+1.bardzo denerwujące 2.bardzo denerwujące 3.bardzo denerwujące 4.bardzo denerwujące 5.bardzo denerwujące 
+1.nieznacznie denerwujące 2.bardzo denerwujące 3.dostrzegalne, lecz nie denerwujace 4.dostrzegalne, lecz nie denerwujace 5.denerwujące 
+1.nieznacznie denerwujące 2.bardzo denerwujące 3.bardzo denerwujące 4.denerwujące 5.nieznacznie denerwujące 
