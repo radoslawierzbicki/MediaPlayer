@@ -1,4 +1,17 @@
 # MediaPlayer
 A media player that plays audiovisual recordings while displaying a survey on a second monitor. Synchronization between the survey and media player is achieved using codes named receiver, sender, and mqttclient. This allows for conducting perception studies on audio-visual stimuli and saving results to a text file.
 
-The receiver is responsible for listening to a message sent by the sender. Mqttclient is an MQTT broker script that connects with clients and facilitates message exchange between them. The goal was to display the survey in fullscreen on one device and the media player on another. To achieve this, the "screeninfo" module was imported, and a function was used to retrieve information about the connected monitors, including resolution, screen size, and position. Based on this information, the root.geometry() function was used to set the size and position of the application window. The width, height, and distances from the left and top edges were obtained from the monitor description objects accordingly. The path to the test material was assigned to a variable in the sender script, and the name of the material to be played was entered in the receiver script. The "runpy" module was then installed to allow running the "dem_rec" and "dem_send" scripts by providing their paths in the main script. This enabled playback of the survey and test material on separate screens by running the main script. However, simultaneous playback caused a problem where the presentation of the study progress was displayed along with the test material. To address this, two threads (objects of the Thread class) were created in the main program, and the receiver and sender functions were launched using these threads. Thus, the test material is played only after clicking the "START" button (located in the introductory stage of the survey). Additionally, a 2-second delay was added with the time.sleep function before playing the recording to avoid surprising the viewer. The final outcome of the program first involves running a survey that informs about the study progress. After clicking the "START" button, the test can be initiated. After two seconds, the test material appears on the second monitor, and the survey proceeds to the voting stage.
+Features
+
+    MQTT Communication: Utilizes the paho-mqtt library for efficient message transfer between the sender and receiver.
+    Audio-Visual Playback: Integrates the vlc library for playing video files.
+    User Interface: Provides a user-friendly interface using tkinter for displaying the test and gathering responses.
+    Survey Module: Implements a customizable survey to gather user feedback on perceived synchronization between audio and video streams.
+    Threaded Execution: Uses Python's threading to handle the asynchronous sending and receiving of media files.
+
+Components
+
+    1. demo_rec.py - This script acts as the receiver, listening for incoming MQTT messages that trigger video playback.
+    2. demo_send.py - The sender script, which sends video files over MQTT and initiates playback on the receiver's side.
+    3. mqttclient.py - A custom MQTT client wrapper, handling the connection, message publishing, and subscription to topics.
+    4. main.py - The main entry point for the application, initializing the user interface and managing the overall experiment flow.
