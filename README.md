@@ -18,15 +18,16 @@ Components
 
 Setup and Installation
 
-    Prerequisites:
-        Python 3.x
-        Required libraries: paho-mqtt, vlc, tkinter, PIL, cv2, screeninfo
+  1.  Prerequisites:
+     
+       • Python 3.x
+       • Required libraries: paho-mqtt, vlc, tkinter, PIL, cv2, screeninfo
 
-    Installation:
+  3.  Installation:
     
-pip install paho-mqtt python-vlc pillow opencv-python screeninfo
+     pip install paho-mqtt python-vlc pillow opencv-python screeninfo
 
-Running the Application:
+ 3.  Running the Application:
 
    • Start the receiver by executing demo_rec.py.
    • Start the sender by executing demo_send.py.
