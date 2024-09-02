@@ -20,8 +20,8 @@ Setup and Installation
 
   1.  Prerequisites:
      
-       • Python 3.x
-       • Required libraries: paho-mqtt, vlc, tkinter, PIL, cv2, screeninfo
+     • Python 3.x
+     • Required libraries: paho-mqtt, vlc, tkinter, PIL, cv2, screeninfo
 
   3.  Installation:
     
@@ -36,7 +36,7 @@ Setup and Installation
 
 Usage
 
-   1. Launch the application via main.py.
-   2. Follow the instructions displayed on the user interface to conduct the synchronization test.
-   3. Respond to each survey question as prompted after each video sequence.
-   4. Results are saved locally for further analysis.
+    1. Launch the application via main.py.
+    2. Follow the instructions displayed on the user interface to conduct the synchronization test.
+    3. Respond to each survey question as prompted after each video sequence.
+    4. Results are saved locally for further analysis.
