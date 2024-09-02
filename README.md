@@ -29,9 +29,9 @@ Setup and Installation
 
  3.  Running the Application:
 
-   • Start the receiver by executing demo_rec.py.
-   • Start the sender by executing demo_send.py.
-   • Run main.py to launch the user interface and begin the experiment.
+    • Start the receiver by executing demo_rec.py.
+    • Start the sender by executing demo_send.py.
+    • Run main.py to launch the user interface and begin the experiment.
 
 
 Usage
