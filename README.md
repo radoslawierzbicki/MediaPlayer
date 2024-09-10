@@ -23,9 +23,9 @@ Setup and Installation
      • Python 3.x
      • Required libraries: paho-mqtt, vlc, tkinter, PIL, cv2, screeninfo
 
-  3.  Installation:
+  2.  Installation:
     
-     pip install paho-mqtt python-vlc pillow opencv-python screeninfo
+     pip install requirements.txt
 
  3.  Running the Application:
 
