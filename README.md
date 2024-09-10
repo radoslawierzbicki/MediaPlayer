@@ -25,7 +25,7 @@ Setup and Installation
 
   2.  Installation:
     
-     pip install requirements.txt
+     pip install -r requirements.txt
 
  3.  Running the Application:
 
